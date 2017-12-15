@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/basic_padding_lr"
+    android:paddingRight="@dimen/basic_padding_lr">
+
+    <!--头像、姓名和时间 -->
+    <include layout="@layout/status_header" />
+
+    <!--微博正文-->
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_marginTop="@dimen/head_text_margin"
+        android:layout_marginBottom="@dimen/head_text_margin"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/text_size_l"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
